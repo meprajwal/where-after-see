@@ -16,6 +16,10 @@ html {
  background-size: cover;
  background-position: center;
 }
+.mov{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+        color: transparent;
+}
 
 .navbar {
  width: 85%;
@@ -145,8 +149,7 @@ input[type=number]::-webkit-outer-spin-button {
     align-items: center;
     justify-content: center;
     padding-left: 10px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./image/bg.jpg");
-    background-repeat: no-repeat;
+    background: #000428;
     background-size: cover;
 }
 
@@ -236,6 +239,14 @@ form .faculty-details .faculty-title{
     font-weight: 500;
 }
 
+.more-stuffs{
+    margin-left: 170px;
+    margin-right: 170px;
+
+}
+.clz_loc{
+    font-weight: 500;
+}
 form .faculty-details .category{
     display: flex;
     width: 50%;
@@ -268,3 +279,14 @@ form input[type="radio"]{
     display: none;
 }
 /* End of Form */
+
+
+/* ------------------------about-------------- */
+.about_container{
+    background: #000428;
+}
+.about_text{
+    font-size: 30px;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+}

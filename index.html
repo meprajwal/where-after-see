@@ -3,8 +3,8 @@
 <head>
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>WAS</title>
+ <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+ <title>Prototype</title>
  <link rel="stylesheet" href="style.css">
  <!-- Google Fonts -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,29 +12,36 @@
  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap">
 </head>
 <body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
  <div class="banner">
   <div class="navbar">
-   <img src="./images/logo.png" alt="xd" class="logo">
+    
+   <img src="./images/logo.PNG" alt="xd" class="logo">
    <ul>
     <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="#where">Start</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#">Contact</a></li>
     <li><a href="#">Service</a></li>
-    <li><a href="#">Motive</a></li>
+    <li><a href="#motive">Motive</a></li>
    </ul>
   </div>
   <div class="content">
    <h1>Where after <span>SEE?</span> </h1>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit quo <br> qui non esse, eligendi sed saepe
-    quos
-    temporibus cupiditate?</p>
+   <center>
+    <h4 class="mov"></h4>
+    </center>   
    <div class="button">
-    <button type="button"><span></span> Use Us</button>
+    
     <button type="button"><span></span> Learn More</button>
    </div>
   </div>
  </div>
+ 
    <!-- Form -->
+   <div id="where">
    <div class="container-body">
     <div class="container">
         <div class="title">Where after SEE</div>
@@ -53,8 +60,7 @@
                     </select>
                 </div>
                 <div class="input-box">
-                    <span class="details">Your Approx</span>
-                   <span class="details">GPA</span>
+                   <span class="details">Approx GPA</span>
                     <input type="number" placeholder="Enter your GPA" required>
                 </div>
             </div>
@@ -72,14 +78,49 @@
                         <span class="dot two"></span>
                         <span class="faculty">Commerce</span>
                     </label>
+                    
                 </div>
             </div>
+            <div class="more-stuffs">
+                <span class ="clz_loc">
+                    <br>
+                <label for ="clz_loc">College Location</label>
+                </span>
+            <select name ="location" id="loc">
+                <option value="value" selected>Choose The Suitable Location</option>
+                <optgroup label="KTM Valley">
+                    <option value="ktm">Kathmandu</option>
+                <optgroup label="BKT">
+                    <option value="bkt">Bhaktapur</option>
+
+                <optgroup label="Lalitpur">
+                    <option value="ltp">Lalitpur</option>
+
+                <optgroup label="Biratnagar">
+                    <option value="brt">Biratnagar</option>
+
+            </select>
             <div class="button">
                 <input type="submit" value="Submit">
             </div>
         </form>
     </div>
+    </div>
  </div>
  <!-- End of form -->
+
+
+ <!-- ---------about---------- -->
+ <div id="about">
+    <div class="about_container">
+        <br>
+        <br>
+        
+
+    </div>
+
+
+ </div>
+
 </body>
 </html>
